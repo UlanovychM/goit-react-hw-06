@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
-import { store, persistR } from './redux/strore.js';
+import { store, persistR } from './redux/store.js';
 import App from './components/App/App.jsx';
 
 import './index.css';
