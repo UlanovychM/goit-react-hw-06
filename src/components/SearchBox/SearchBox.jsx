@@ -1,11 +1,11 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { changeFilter } from '../../redux/filtersSlice';
 import { useId } from 'react';
-import { Input, Label } from './SearchBar.styled';
+import { Input, Label } from './SearchBox.styled';
 
 const SearchBar = () => {
 	const dispatch = useDispatch();
-	const value = useSelector(state => state.filter);
+	const value = useSelector(state => state.filter.name);
 	const searchId = useId();
 
 	return (

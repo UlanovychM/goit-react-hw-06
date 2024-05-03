@@ -1,5 +1,5 @@
 import ContactList from '../ContactList/ContactList';
-import SearchBar from '../SearchBar/SearchBar';
+import SearchBox from '../SearchBox/SearchBox';
 import ContactForm from '../ContactForm/ContactForm';
 import { ToastContainer } from 'react-toastify';
 
@@ -8,7 +8,7 @@ function App() {
 		<div>
 			<h1>Phonebook</h1>
 			<ContactForm />
-			<SearchBar />
+			<SearchBox />
 			<ContactList />
 
 			<ToastContainer position='top-center' />
